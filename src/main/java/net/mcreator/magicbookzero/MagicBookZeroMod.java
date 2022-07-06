@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.magicbookzero.init.MagicBookZeroModTabs;
 import net.mcreator.magicbookzero.init.MagicBookZeroModItems;
 
 import java.util.function.Supplier;
@@ -42,7 +43,7 @@ public class MagicBookZeroMod {
 	private static int messageID = 0;
 
 	public MagicBookZeroMod() {
-
+		MagicBookZeroModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MagicBookZeroModItems.REGISTRY.register(bus);

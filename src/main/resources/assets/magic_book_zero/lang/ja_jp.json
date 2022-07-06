@@ -1,3 +1,5 @@
 {
-  "item.magic_book_zero.magicbook": "魔法の本"
+  "itemGroup.tabmagic_book_zero": "マジックブックゼロ",
+  "item.magic_book_zero.magicbook": "魔法の本",
+  "item.magic_book_zero.magic_stone_blue": "青い魔法の石"
 }

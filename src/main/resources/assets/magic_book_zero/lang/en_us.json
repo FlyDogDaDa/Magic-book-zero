@@ -1,3 +1,5 @@
 {
-  "item.magic_book_zero.magicbook": "Magicbook"
+  "itemGroup.tabmagic_book_zero": "Magic Book Zero",
+  "item.magic_book_zero.magicbook": "Magicbook",
+  "item.magic_book_zero.magic_stone_blue": "Magic Stone Blue"
 }

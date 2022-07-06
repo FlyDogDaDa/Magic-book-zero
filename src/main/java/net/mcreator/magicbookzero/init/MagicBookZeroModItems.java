@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.magicbookzero.item.MagicbookItem;
+import net.mcreator.magicbookzero.item.MagicStoneBlueItem;
 import net.mcreator.magicbookzero.MagicBookZeroMod;
 
 public class MagicBookZeroModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MagicBookZeroMod.MODID);
 	public static final RegistryObject<Item> MAGICBOOK = REGISTRY.register("magicbook", () -> new MagicbookItem());
+	public static final RegistryObject<Item> MAGIC_STONE_BLUE = REGISTRY.register("magic_stone_blue", () -> new MagicStoneBlueItem());
 }
