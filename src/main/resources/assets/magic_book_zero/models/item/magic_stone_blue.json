@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "magic_book_zero:items/bl_stone"
+  }
+}

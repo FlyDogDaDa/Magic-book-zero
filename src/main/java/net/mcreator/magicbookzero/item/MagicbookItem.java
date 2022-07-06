@@ -12,7 +12,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -28,6 +27,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.mcreator.magicbookzero.world.inventory.MagicbookGUIMenu;
 import net.mcreator.magicbookzero.procedures.MagicbookRightclickedProcedure;
 import net.mcreator.magicbookzero.item.inventory.MagicbookInventoryCapability;
+import net.mcreator.magicbookzero.init.MagicBookZeroModTabs;
 
 import javax.annotation.Nullable;
 
@@ -37,7 +37,7 @@ import io.netty.buffer.Unpooled;
 
 public class MagicbookItem extends Item {
 	public MagicbookItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MagicBookZeroModTabs.TAB_MAGIC_BOOK_ZERO).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

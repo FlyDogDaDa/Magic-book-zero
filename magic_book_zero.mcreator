@@ -42,13 +42,54 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "MagicBookZero",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_book_zero"
+    },
+    {
+      "name": "MGB",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mgb"
+    },
+    {
+      "name": "MagicStoneBlue",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_stone_blue"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "zh_tw": {
+      "itemGroup.tabmagic_book_zero": "魔術零",
+      "item.magic_book_zero.magicbook": "魔法書",
+      "item.magic_book_zero.magic_stone_blue": "藍色魔法石"
+    },
     "en_us": {
-      "item.magic_book_zero.magicbook": "Magicbook"
+      "itemGroup.tabmagic_book_zero": "Magic Book Zero",
+      "item.magic_book_zero.magicbook": "Magicbook",
+      "item.magic_book_zero.magic_stone_blue": "Magic Stone Blue"
+    },
+    "zh_cn": {
+      "itemGroup.tabmagic_book_zero": "魔术零",
+      "item.magic_book_zero.magicbook": "魔法书",
+      "item.magic_book_zero.magic_stone_blue": "蓝色魔法石"
+    },
+    "ja_jp": {
+      "itemGroup.tabmagic_book_zero": "マジックブックゼロ",
+      "item.magic_book_zero.magicbook": "魔法の本",
+      "item.magic_book_zero.magic_stone_blue": "青い魔法の石"
     }
   },
   "foldersRoot": {

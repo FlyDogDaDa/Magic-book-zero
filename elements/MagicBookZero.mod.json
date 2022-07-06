@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Magic Book Zero",
+    "icon": {
+      "value": "CUSTOM:MagicStoneBlue"
+    },
+    "showSearch": false
+  }
+}
