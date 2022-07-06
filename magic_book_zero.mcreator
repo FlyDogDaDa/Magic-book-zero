@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magicbook"
+      "registry_name": "magicbook",
+      "path": "~/Magicbook"
     },
     {
       "name": "MagicbookGUI",
@@ -14,7 +15,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magicbook_gui"
+      "registry_name": "magicbook_gui",
+      "path": "~/Magicbook"
     },
     {
       "name": "Castfireball",
@@ -46,7 +48,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Magicbook/event"
     },
     {
       "name": "MagicBookZero",
@@ -106,7 +109,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Magicbook"
     }
   ],
   "variable_elements": [],
@@ -135,7 +139,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Magicbook",
+        "children": [
+          {
+            "name": "event",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "magic_book_zero",

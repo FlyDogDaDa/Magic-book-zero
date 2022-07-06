@@ -18,7 +18,7 @@ public class CastfireballProcedure {
 			entityToSpawn.moveTo(x, y, z, 0, 0);
 			entityToSpawn.setYBodyRot(0);
 			entityToSpawn.setYHeadRot(0);
-			entityToSpawn.setDeltaMovement((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z));
+			entityToSpawn.setDeltaMovement((entity.getLookAngle().x * 255), (entity.getLookAngle().y * 255), (entity.getLookAngle().z * 255));
 			if (entityToSpawn instanceof Mob _mobToSpawn)
 				_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 			world.addFreshEntity(entityToSpawn);
