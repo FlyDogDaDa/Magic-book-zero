@@ -1,8 +1,11 @@
 package net.mcreator.magicbookzero.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.items.CapabilityItemHandler;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+
+import java.util.concurrent.atomic.AtomicReference;
 
 public class MagicbookRightclickedProcedure {
 	public static void execute(ItemStack itemstack) {

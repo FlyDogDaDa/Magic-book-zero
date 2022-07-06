@@ -1,13 +1,16 @@
 
 package net.mcreator.magicbookzero.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.magicbookzero.init.MagicBookZeroModTabs;
 
 public class MagicStoneBlueItem extends Item {
-
 	public MagicStoneBlueItem() {
-		super(new Item.Properties().tab(MagicBookZeroModTabs.TAB_DELETED_MOD_ELEMENT).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MagicBookZeroModTabs.TAB_MAGIC_BOOK_ZERO).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -19,5 +22,4 @@ public class MagicStoneBlueItem extends Item {
 	public int getUseDuration(ItemStack itemstack) {
 		return 0;
 	}
-
 }
