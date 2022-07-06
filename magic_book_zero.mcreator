@@ -17,12 +17,31 @@
       "registry_name": "magicbook_gui"
     },
     {
-      "name": "W",
-      "type": "recipe",
+      "name": "MagicbookRightclicked",
+      "type": "procedure",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "w"
+      "registry_name": "magicbook_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Castfireball",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castfireball",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],

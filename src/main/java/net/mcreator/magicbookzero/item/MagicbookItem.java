@@ -26,6 +26,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.magicbookzero.world.inventory.MagicbookGUIMenu;
+import net.mcreator.magicbookzero.procedures.MagicbookRightclickedProcedure;
 import net.mcreator.magicbookzero.item.inventory.MagicbookInventoryCapability;
 
 import javax.annotation.Nullable;
@@ -81,6 +82,8 @@ public class MagicbookItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
+
+		MagicbookRightclickedProcedure.execute(itemstack);
 		return ar;
 	}
 

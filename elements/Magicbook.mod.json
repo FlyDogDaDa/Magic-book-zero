@@ -31,6 +31,9 @@
     "guiBoundTo": "MagicbookGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "MagicbookRightclicked"
+    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,
