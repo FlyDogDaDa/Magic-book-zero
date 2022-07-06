@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magicbook_gui"
+    },
+    {
+      "name": "W",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w"
     }
   ],
   "variable_elements": [],

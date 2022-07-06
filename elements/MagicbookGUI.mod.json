@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 300,
+    "width": 200,
     "height": 200,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -19,7 +19,7 @@
             "falpha": 0.0
           },
           "name": "MagicBook",
-          "x": 69,
+          "x": 195,
           "y": 26
         }
       },
@@ -33,86 +33,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 78,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 105,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 2,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
-          "x": 132,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 3,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #3",
-          "x": 159,
-          "y": 44
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 4,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #4",
-          "x": 186,
-          "y": 44
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 5,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #5",
-          "x": 240,
-          "y": 98
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Launch",
-          "width": 56,
-          "height": 20,
-          "name": "Launch",
-          "x": 166,
-          "y": 96
+          "x": 204,
+          "y": 53
         }
       }
     ],

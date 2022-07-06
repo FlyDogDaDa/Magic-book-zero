@@ -5,10 +5,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.magicbookzero.world.inventory.MagicbookGUIMenu;
@@ -31,7 +29,7 @@ public class MagicbookGUIScreen extends AbstractContainerScreen<MagicbookGUIMenu
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 300;
+		this.imageWidth = 200;
 		this.imageHeight = 200;
 	}
 
@@ -70,7 +68,7 @@ public class MagicbookGUIScreen extends AbstractContainerScreen<MagicbookGUIMenu
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "MagicBook", 5, 6, -12829636);
+		this.font.draw(poseStack, "MagicBook", 81, 6, -12829636);
 	}
 
 	@Override
@@ -83,7 +81,5 @@ public class MagicbookGUIScreen extends AbstractContainerScreen<MagicbookGUIMenu
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 102, this.topPos + 76, 56, 20, new TextComponent("Launch"), e -> {
-		}));
 	}
 }
