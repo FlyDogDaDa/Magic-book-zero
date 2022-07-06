@@ -15,21 +15,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magicbook_gui"
-    },
-    {
-      "name": "W",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "w"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "zh_tw": {
+      "item.magic_book_zero.magicbook": "魔法書"
+    },
     "en_us": {
       "item.magic_book_zero.magicbook": "Magicbook"
+    },
+    "zh_cn": {
+      "item.magic_book_zero.magicbook": "魔法書"
+    },
+    "ja_jp": {
+      "item.magic_book_zero.magicbook": "魔法の本"
     }
   },
   "foldersRoot": {
@@ -50,6 +51,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.magicbookzero",
     "lockBaseModFiles": false
   },
