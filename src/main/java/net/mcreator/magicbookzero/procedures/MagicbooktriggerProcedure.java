@@ -2,6 +2,7 @@ package net.mcreator.magicbookzero.procedures;
 
 import net.minecraftforge.items.CapabilityItemHandler;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
@@ -12,8 +13,8 @@ import java.util.function.Supplier;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.Map;
 
-public class MagicbookRightclickedProcedure {
-	public static void execute(Entity entity, ItemStack itemstack) {
+public class MagicbooktriggerProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		ItemStack slot_item = ItemStack.EMPTY;
@@ -32,6 +33,7 @@ public class MagicbookRightclickedProcedure {
 				((Slot) _slots.get(0)).remove(1);
 				_player.containerMenu.broadcastChanges();
 			}
+			CastfireballProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }

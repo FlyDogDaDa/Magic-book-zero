@@ -31,8 +31,8 @@
     "guiBoundTo": "MagicbookGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "MagicbookRightclicked"
+    "onEntitySwing": {
+      "name": "Magicbooktrigger"
     },
     "hasDispenseBehavior": false,
     "isFood": false,

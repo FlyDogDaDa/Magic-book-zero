@@ -17,22 +17,6 @@
       "registry_name": "magicbook_gui"
     },
     {
-      "name": "MagicbookRightclicked",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magicbook_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
       "name": "Castfireball",
       "type": "procedure",
       "sortid": 4,
@@ -87,6 +71,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_stone_blue"
+    },
+    {
+      "name": "Magicbooktrigger",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicbooktrigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

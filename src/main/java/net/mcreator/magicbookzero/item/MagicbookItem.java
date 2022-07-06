@@ -15,6 +15,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
@@ -25,7 +26,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.magicbookzero.world.inventory.MagicbookGUIMenu;
-import net.mcreator.magicbookzero.procedures.MagicbookRightclickedProcedure;
+import net.mcreator.magicbookzero.procedures.MagicbooktriggerProcedure;
 import net.mcreator.magicbookzero.item.inventory.MagicbookInventoryCapability;
 import net.mcreator.magicbookzero.init.MagicBookZeroModTabs;
 
@@ -82,9 +83,14 @@ public class MagicbookItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
-
-		MagicbookRightclickedProcedure.execute(entity, itemstack);
 		return ar;
+	}
+
+	@Override
+	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
+		boolean retval = super.onEntitySwing(itemstack, entity);
+		MagicbooktriggerProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
+		return retval;
 	}
 
 	@Override
