@@ -83,7 +83,7 @@ public class MagicbookItem extends Item {
 			});
 		}
 
-		MagicbookRightclickedProcedure.execute(itemstack);
+		MagicbookRightclickedProcedure.execute(entity, itemstack);
 		return ar;
 	}
 
