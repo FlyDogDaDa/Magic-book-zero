@@ -7,6 +7,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magicbook"
+    },
+    {
+      "name": "MagicbookGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicbook_gui"
     }
   ],
   "variable_elements": [],
