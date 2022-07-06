@@ -28,7 +28,7 @@
       "Necessary medium used to activate magic"
     ],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "MagicbookGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
